@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 70%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 0%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 70%
+    right: 50%
 
 @keyframes float1
   0%
@@ -17,3 +21,119 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal__img
+  width: 35%
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.tarjeta.tarjeta--azul
+  background-color: #FFEDB2
+  height: 120px
+  @media screen and ( max-width: $bp-max-sm )
+    height: 150px
+
+.tarjeta.tarjeta--azul1
+  background-color: #FFEDB2
+  height: 170px
+  @media screen and ( max-width: $bp-max-lg )
+    height: 190px
+  @media screen and ( max-width: $bp-max-sm )
+    height: 320px
+
+.tarjeta.tarjeta--azul2
+  background-image: url(../assets/curso/tema1/img11.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  height: 170px
+  @media screen and ( max-width: $bp-max-lg )
+    height: 190px
+  @media screen and ( max-width: $bp-max-sm )
+    height: 340px
+
+.tarjeta-avatar-b__img
+  min-width: 15%
+  max-width: 15%
+
+.bloque-texto-a.color-secundario:before
+  background-color: #FFC202
+
+.cajon.color-primario
+  background-color: #CCF8FF
+.cajon.color-primario:before
+  background-color: #00DAFD
+
+.tarjeta.color-acento-contenido
+  background-color: #FFEDB2
+
+.slyder-f__btn i
+  color: #00EB6D
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c2
+    background-image: url(../assets/curso/tema1/img1.svg)
+    background-repeat: no-repeat
+    background-size: cover
+  &-c3
+    position: relative
+    left: -50px
+    background-color: #0097F1
+    border-bottom-right-radius: 25px
+    border-top-right-radius: 25px
+    border-top-left-radius: 25px
+    @media screen and ( max-width: $bp-max-sm )
+      left: 0px
+  &-c4
+    background-color: #FFF3CC
+    border-radius: 25px
+  &-c5
+    background-image: url(../assets/curso/tema1/img8.svg)
+    background-repeat: no-repeat
+    background-size: 40%
+    background-position: 80% 50%
+  &-c6
+    background-image: url(../assets/curso/tema1/img9.svg)
+    background-repeat: no-repeat
+    background-size: 50%
+    background-position: 80% 50%
+  &-c7
+    background-color: #FFEDB2
+  &-c8
+    background-color: #0097F1
+    border-radius: 25px
+    z-index: 2
+    position: relative
+    top: 10px
+  &-c9
+    background-color: #00DAFD
+    border-radius: 25px
+    z-index: 2
+    position: relative
+    top: 10px
+  &-c10
+    background-color: white
+    border-radius: 25px
+    z-index: 1
+    height: 450px
+    @media screen and ( max-width: $bp-max-sm )
+      height: 600px
+
+.fig
+  &-p1
+    position: relative
+    top: 40px
+    @media screen and ( max-width: $bp-max-lg )
+      top: 0px
