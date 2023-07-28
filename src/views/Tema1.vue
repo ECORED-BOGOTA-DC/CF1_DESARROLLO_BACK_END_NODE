@@ -2,19 +2,19 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Bases de datos NoSQL
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El concepto de bases de datos NoSQL está ampliamente divulgado en el entorno del desarrollo de software para identificar aquellos sistemas de bases de datos que no son gestionados bajo el estándar de SQL y/o no se pueden clasificar dentro de las bases de datos relacionales.
         p Estas bases de datos NoSQL son una forma de solucionar los problemas de diseño de bases de datos que no podían ser resueltos mediante los sistemas de bases de datos relacionales o que, en caso de ser implementados (los sistemas de bases de datos relacionales), representaban un manejo de estructuras demasiado complejas que sacrificaban el rendimiento de las aplicaciones que hacían uso de estas. En este sentido, las bases de datos NoSQL permiten resolver problemas en contextos específicos.
         p.mb-0 Entonces, analice las características de los sistemas de datos relacionales (SQL) frente a los no relacionales (NoSQL):
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-12.bg-c2.p-4
         .row
           .col-lg-4.mb-4.mb-lg-0
@@ -51,23 +51,23 @@
                 |
                 p.mb-0 Alto nivel de escalamiento y evolución superior.
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p Es importante tener en cuenta que, con la globalización de las aplicaciones, el uso masivo del Internet y las telecomunicaciones, la forma de procesar los datos se encuentra en constante evolución, lo que requiere de esquemas menos rígidos que permitan cambios de sus estructuras de una manera natural y que sean más fáciles de manejar y escalar a grandes volúmenes de datos; en estas nuevas circunstancias, muchos de los sistemas actuales necesitan tener un alto nivel de rendimiento y una alta escalabilidad, con necesidades de despliegue inmediato, por lo que se acoplan mejor a los sistemas de almacenamiento NoSQL.
         p El concepto NoSQL agrupa dentro de sí diferentes tipos de bases de datos, cada una de ellas con características muy diferentes y particulares, lo que brinda un abanico adicional de opciones que pueden adaptarse mejor a soluciones requeridas en diferentes entornos.
         p.mb-0 Según AWS (2021), las bases de datos NoSQL más representativas son las siguientes:
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos clave-valor
-    p.mb-5 Este tipo es una de las bases de datos NoSQL más simples que existen. Su estructura, generalmente, se representa como una tabla de dos columnas:
+    p.mb-5(data-aos="fade-right") Este tipo es una de las bases de datos NoSQL más simples que existen. Su estructura, generalmente, se representa como una tabla de dos columnas:
     .row.justify-content-center.mb-5
-      .col-md-9.col-lg-5
+      .col-md-9.col-lg-5(data-aos="fade-right")
         .tarjeta-avatar-b.mb-4.mb-lg-0
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img3.png' alt='AvatarTop')
@@ -75,7 +75,7 @@
             .p-4
               p.mb-0 #[b Clave]
               p.mb-0 En esta columna se realiza un único registro.
-      .col-md-9.col-lg-5
+      .col-md-9.col-lg-5(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img4.png' alt='AvatarTop')
@@ -83,12 +83,12 @@
             .p-4
               p.mb-0 #[b Valor]
               p.mb-0 Almacena los valores, que pueden ser de tipos de datos primitivos o complejos.
-    p.mb-5 A continuación, se presenta un ejemplo de la estructura de este tipo de base de datos:
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") A continuación, se presenta un ejemplo de la estructura de este tipo de base de datos:
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 1]. Representación de una base de datos Clave-Valor
-    figure.mb-5
+    figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 800px" ,alt='Texto que describa la imagen').m-auto
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5 
           .row.m-0.align-items-center.justify-content-between
@@ -111,10 +111,10 @@
                     i.fas.fa-circle(style="color: #0097F1")
                     |
                     p.mb-0 Aplicaciones de IoT.
-    p.mb-5 En la siguiente tabla, se muestran algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura de almacenamiento clave-valor:
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") En la siguiente tabla, se muestran algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura de almacenamiento clave-valor:
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Tabla 1]. Ejemplos de gestores de bases de datos tipo clave-valor
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.color-acento-contenido
           table
@@ -165,15 +165,15 @@
                     img(src='@/assets/curso/tema1/img11.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
                   a(href="https://aerospike.com" target="_blank") https://aerospike.com
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos documentales
-    p.mb-5 El nombre documental hace referencia al tipo de estructura principal usada para representar la información, el cual se denomina documento.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-down") El nombre documental hace referencia al tipo de estructura principal usada para representar la información, el cual se denomina documento.
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5 
           .row.m-0.align-items-center.justify-content-between
@@ -183,28 +183,28 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-0 En este tipo de base de datos, la información no está contenida en tablas, sino que se compone de una estructura de datos semiestructurada, agrupada por colecciones de objetos o documentos de tipo JSON, XML, YAML o archivos de texto, los cuales, a su vez, pueden estar estructurados por diferentes tipos de datos primitivos o compuestos. Este es un modelo eficiente e intuitivo para los desarrolladores de software.
-    p Estas bases de datos semiestructuradas facilitan la versatilidad, por lo que pueden evolucionar según las necesidades de las aplicaciones, y, entre sus ventajas, ofrece la posibilidad de gestión de información semiestructurada, que puede albergar gran cantidad de información con diversos tipos de datos; ya que no tiene un esquema formal o rígido, simplifican las tareas de inserción y actualización de datos.
-    p Las aplicaciones web y móviles actuales están sometidas a gran cantidad de cambios en las estructuras de información que gestionan, por lo cual este tipo de bases de datos NoSQL se adecúan muy bien a este tipo de contextos.
-    p.mb-5 A continuación, se observa un ejemplo de una posible estructura para una base de datos tipo documental.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p(data-aos="fade-right") Estas bases de datos semiestructuradas facilitan la versatilidad, por lo que pueden evolucionar según las necesidades de las aplicaciones, y, entre sus ventajas, ofrece la posibilidad de gestión de información semiestructurada, que puede albergar gran cantidad de información con diversos tipos de datos; ya que no tiene un esquema formal o rígido, simplifican las tareas de inserción y actualización de datos.
+    p(data-aos="fade-right") Las aplicaciones web y móviles actuales están sometidas a gran cantidad de cambios en las estructuras de información que gestionan, por lo cual este tipo de bases de datos NoSQL se adecúan muy bien a este tipo de contextos.
+    p.mb-5(data-aos="fade-right") A continuación, se observa un ejemplo de una posible estructura para una base de datos tipo documental.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 2]. Representación gráfica de bases de datos tipo documental
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-12.bg-c4
         .p-4
           figure
             img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='Texto que describa la imagen').m-auto
-    p.mb-5 De acuerdo con la información ya proporcionada,
-    .row.align-items-center.mb-5
+    p.mb-5(data-aos="fade-right") De acuerdo con la información ya proporcionada,
+    .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.bg-c5.mb-4.mb-lg-0
         .p-4
           p.fs-4 #[b ¿dónde es posible encontrar este tipo de base de datos?]
       .col-lg-8
         .cajon.color-primario.p-4
           p.mb-0 Las aplicaciones que comúnmente utilizan estas representaciones son los catálogos, perfiles de usuario y los sistemas de administración de contenido.
-    p.mb-5 En la siguiente tabla 2, se muestran algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura de almacenamiento documental. Recuerde que los vistos en la anterior tabla fueros los de clave-valor:
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") En la siguiente tabla 2, se muestran algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura de almacenamiento documental. Recuerde que los vistos en la anterior tabla fueros los de clave-valor:
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Tabla 2]. Ejemplos de gestores de bases de datos tipo documental
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.color-acento-contenido
           table
@@ -243,20 +243,20 @@
                     img(src='@/assets/curso/tema1/img16.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
                   a(href="https://orientdb.org" target="_blank") https://orientdb.org
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos de tipo grafo
-    p Esta base de datos se caracteriza por representar la información por medio de vértices y aristas, lo que la asocia directamente con la teoría de grafos, ampliamente estudiada en la matemática y las ciencias de la computación.
-    p.mb-5 Entonces,
+    p(data-aos="fade-right") Esta base de datos se caracteriza por representar la información por medio de vértices y aristas, lo que la asocia directamente con la teoría de grafos, ampliamente estudiada en la matemática y las ciencias de la computación.
+    p.mb-5(data-aos="fade-right") Entonces,
     .row.align-items-center.mb-5
-      .col-lg-4.bg-c6.mb-4.mb-lg-0
+      .col-lg-4.bg-c6.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4
           p.fs-4 #[b ¿qué se entiende por nodo o vértice?]
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .tarjeta-avatar-b.mb-4.mb-lg-0
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img17.png' alt='AvatarTop')
@@ -264,8 +264,8 @@
             .p-4
               p.mb-0 #[b Nodo o vértice]
               p.mb-0 En esencia, un vértice o nodo representa una entidad donde se almacena un conjunto de atributos que, normalmente, van representados con la estructura de clave – valor, y las aristas representan las relaciones que permiten representar la conexión y asociación entre los diferentes nodos.
-    p.mb-5 Este tipo de base de datos carece de un esquema fijo y los nodos, a su vez, pueden tener diferentes tipos y cantidades de atributos, por lo que se dice que son multidimensionales.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") Este tipo de base de datos carece de un esquema fijo y los nodos, a su vez, pueden tener diferentes tipos y cantidades de atributos, por lo que se dice que son multidimensionales.
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .tarjeta-avatar-b.mb-4.mb-lg-0
           .tarjeta-avatar-b__img
@@ -273,22 +273,22 @@
           .tarjeta.tarjeta--azul2
             .p-4
               p.mb-0 Otra característica clave es que las relaciones pueden almacenar información adicional y no existen restricciones sobre la forma en la que se establecen dichas relaciones, es decir, pueden ser sin dirección, unidireccionales o bidireccionales. Esta característica le permite tener un altísimo rendimiento en la búsqueda de resultados y el descubrimiento de nueva información.
-    p.mb-5 A continuación, un ejemplo gráfico de la representación de una base de datos de tipo grafo:
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") A continuación, un ejemplo gráfico de la representación de una base de datos de tipo grafo:
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 3]. Representación gráfica de bases de datos tipo grafo
-    figure.mb-5
+    figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img12.svg', style="width: 1300px" ,alt='Texto que describa la imagen').m-auto
       figcaption.mt-3 Nota. Tomado de Almagro (2017).
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img18.png', style="width: 410px" ,alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Este tipo de base de datos facilita la creación y la ejecución de aplicaciones que funcionan con conjuntos de datos altamente conectados. Los casos de uso típicos son los que incluyen redes sociales, motores de recomendaciones, detección de fraude y gráficos de conocimiento.
         p.mb-0 Ya vimos algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura tipo clave-valor y de almacenamiento documental; ahora, es momento de ver los de tipo grafo:
-    .titulo-sexto.color-acento-contenido.mb-4
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Tabla 3]. Ejemplos de gestores de bases de datos tipo grafo
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.color-acento-contenido
           table
@@ -327,17 +327,17 @@
                     img(src='@/assets/curso/tema1/img23.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
                   a(href="https://titan.thinkaurelius.com/" target="_blank") https://titan.thinkaurelius.com/
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Paralelo entre SQL y NoSQL
-    p Las bases de datos SQL y NoSQL cumplen con la labor de gestionar información y existe gran cantidad de sistemas gestores de bases de datos en el mercado, que facilitan este proceso con altos estándares de calidad. Sencillamente, estos dos modelos utilizan estructuras de almacenamiento y estándares de acceso a la información que son transversalmente diferentes. El uso o no de un modelo SQL o NoSQL dependerá del contexto de la solución que se busca resolver y de las necesidades de infraestructura requeridas por el cliente.
-    p.mb-5 A continuación, se hace un paralelo de algunas de las características más importantes que diferencian un sistema SQL de un sistema NoSQL (AWS, 2021).
+    p(data-aos="fade-right") Las bases de datos SQL y NoSQL cumplen con la labor de gestionar información y existe gran cantidad de sistemas gestores de bases de datos en el mercado, que facilitan este proceso con altos estándares de calidad. Sencillamente, estos dos modelos utilizan estructuras de almacenamiento y estándares de acceso a la información que son transversalmente diferentes. El uso o no de un modelo SQL o NoSQL dependerá del contexto de la solución que se busca resolver y de las necesidades de infraestructura requeridas por el cliente.
+    p.mb-5(data-aos="fade-right") A continuación, se hace un paralelo de algunas de las características más importantes que diferencian un sistema SQL de un sistema NoSQL (AWS, 2021).
     .row
-      .col-12.bg-c7
+      .col-12.bg-c7(data-aos="fade-right")
         .p-4
           SlyderF(columnas="col-12")
             .tarjeta.color-acento-contenido.p-4

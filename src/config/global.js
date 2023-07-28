@@ -111,32 +111,49 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'MongoDB',
+      referencia:
+        'MongoDB. (s. f.). <i>Welcome to the MongoDB Documentation</i>.',
+      tipo: 'Página web',
+      link: 'https://www.mongodb.com/docs/ ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Clúster',
+      significado:
+        'agrupación de varios equipos de cómputo especializados para ofrecer servicios.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Escalamiento horizontal',
+      significado:
+        'permite el crecimiento de una manera muy amplia y técnicamente sin límites. Implica infraestructura de varios servidores, conocidos como nodos, que trabajan como una única unidad y pueden equilibrar cargas y agregar más componentes a su estructura, robusteciendo su capacidad sin afectar sus servicios. ',
+    },
+    {
+      termino: 'Infraestructura tecnológica',
+      significado:
+        'equipos de cómputo, sistemas de red y cualquier otro componente de tipo hardware requerido para el montaje y puesta en marcha de un sistema software.',
+    },
+    {
+      termino: '<i>Shell</i>',
+      significado: 'ventana de comandos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Almagro-Blanco, P. y Sancho-Caparrini, F. (2017). <i>Generalized Graph Pattern Matching. Cornell University</i>. ',
+      link: 'https://arxiv.org/abs/1708.03734',
+    },
+    {
+      referencia: 'Amazon Web Services. (s. f.). <i>¿Qué es NoSQL? AWS</i>. ',
+      link: 'https://aws.amazon.com/es/NoSQL/',
+    },
+    {
+      referencia:
+        'Graph Everywhere. (2021). <i>Las top 10 Bases de datos nativas de grafos</i>. ',
+      link:
+        'https://www.grapheverywhere.com/las-top-10-bases-de-datos-nativas-de-grafos/',
     },
   ],
   creditos: [
@@ -144,14 +161,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -159,9 +177,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'María Fernanda Chacón Castro',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor metodológico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -174,9 +214,10 @@ export default {
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador fullstack',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',

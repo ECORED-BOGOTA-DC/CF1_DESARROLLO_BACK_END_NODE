@@ -3,9 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 En la actualidad, se presenta un universo muy amplio en variedad de tecnología para bases de datos, como es el caso de NoSQL que se creó con la finalidad de dar respuesta a las necesidades de desarrollo detectadas asociadas a estas aplicaciones actuales; en este sentido el presente componente formativo tiene como objetivo el abordaje de temas como las bases de datos no relacionales y la plataforma MongoDB. Estos temas se resumen a través del siguiente mapa conceptual, esto es:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
