@@ -251,7 +251,7 @@
         .col-md.col-lg-6
           h3(style="color: #12263F") Llamado a la acción comandos básicos más utilizados en MongoDB
           p.mb-4(style="color: #12263F") Le invitamos a conocer los comandos básicos más utilizados junto con su descripción:
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank" type="application/pdf")
             span(style="color: #12263F !important") Descargar
             i.fas.fa-file-download(style="color: #12263F !important")
     Separador
