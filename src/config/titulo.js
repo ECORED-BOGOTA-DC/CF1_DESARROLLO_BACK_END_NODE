@@ -1,1 +1,1 @@
-module.exports = 'Gestión de bases de datos NoSQL con MongoD'
+module.exports = 'Gestión de bases de datos NoSQL con MongoDB'

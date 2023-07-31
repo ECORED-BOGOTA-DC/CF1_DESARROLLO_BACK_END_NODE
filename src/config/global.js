@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de bases de datos NoSQL con MongoD',
+    componenteFormativo: 'Gestión de bases de datos NoSQL con MongoDB',
     descripcionCurso:
       'En este componente formativo, se aborda el tema de las bases de datos no relacionales, en el que se presentan sus diferentes tipos y la forma en la que sus características se acoplan más fácilmente a ciertos contextos. Adicionalmente, se introduce la plataforma MongoDB como ejemplo para la gestión de bases de datos NoSQL de tipo documental.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

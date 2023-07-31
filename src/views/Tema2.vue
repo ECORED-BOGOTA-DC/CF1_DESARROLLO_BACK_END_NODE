@@ -20,7 +20,7 @@
           img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
-          h3.mb-0.ms-0.ms-md-4.text-white Instalación de MongoD
+          h3.mb-0.ms-0.ms-md-4.text-white Instalación de MongoDB
     .row.bg-c1.mb-5(data-aos="fade-down")
       .col-12
         .px-5.pt-5
