@@ -3,21 +3,38 @@
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch.mb-5
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Conceptos clave relacionados con bases de datos NoSQL
+        p.mb-4 Explicar los conceptos más importantes asociados a las bases de datos NoSQL para determinar la pertinencia de cada tipo, de acuerdo a los requerimientos del cliente.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Cuestionario
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD1/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar_Soltar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptos clave relacionados con bases de datos NoSQL
-        p.mb-4 Afianzar algunos de los conceptos más importantes asociados a las bases de datos NoSQL para determinar la pertinencia de cada tipo, de acuerdo a los requerimientos del cliente.
+          h2 Repaso de comandos básicos
+        p.mb-4 Apropiar los comandos MongoDB básicos para el manejo adecuado de esta base de datos, teniendo en cuenta los requerimientos técnicos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar el concepto con la descripción que lo identifica.
+              p.fw-bold.mb-0 Cuestionario
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD2/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
