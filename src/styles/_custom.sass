@@ -53,11 +53,8 @@
   background-image: url(../assets/curso/tema1/img11.svg)
   background-repeat: no-repeat
   background-size: cover
-  height: 170px
-  @media screen and ( max-width: $bp-max-lg )
-    height: 190px
-  @media screen and ( max-width: $bp-max-sm )
-    height: 340px
+  background-position: 40% 0%
+  height: 100%
 
 .tarjeta-avatar-b__img
   min-width: 15%
@@ -148,8 +145,14 @@
     border-radius: 25px
     z-index: 1
     height: 450px
-    @media screen and ( max-width: $bp-max-sm )
+    @media screen and ( max-width: $bp-max-xl )
       height: 600px
+    @media screen and ( max-width: $bp-max-lg )
+      height: 700px
+    @media screen and ( max-width: $bp-max-md )
+      height: 460px
+    @media screen and ( max-width: $bp-max-sm )
+      height: 100%
   &-c11
     background-color: #00EB6D
     border-radius: 25px

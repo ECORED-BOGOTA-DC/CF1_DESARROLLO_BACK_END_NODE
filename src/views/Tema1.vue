@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
       .col-lg-8(data-aos="fade-left")
-        p El concepto de bases de datos NoSQL está ampliamente divulgado en el entorno del desarrollo de software para identificar aquellos sistemas de bases de datos que no son gestionados bajo el estándar de SQL y/o no se pueden clasificar dentro de las bases de datos relacionales.
+        p El concepto de bases de datos NoSQL está ampliamente divulgado en el entorno del desarrollo de #[i software] para identificar aquellos sistemas de bases de datos que no son gestionados bajo el estándar de SQL y/o no se pueden clasificar dentro de las bases de datos relacionales.
         p Estas bases de datos NoSQL son una forma de solucionar los problemas de diseño de bases de datos que no podían ser resueltos mediante los sistemas de bases de datos relacionales o que, en caso de ser implementados (los sistemas de bases de datos relacionales), representaban un manejo de estructuras demasiado complejas que sacrificaban el rendimiento de las aplicaciones que hacían uso de estas. En este sentido, las bases de datos NoSQL permiten resolver problemas en contextos específicos.
         p.mb-0 Entonces, analice las características de los sistemas de datos relacionales (SQL) frente a los no relacionales (NoSQL):
     .row.mb-5(data-aos="fade-down")
@@ -85,9 +85,10 @@
               p.mb-0 Almacena los valores, que pueden ser de tipos de datos primitivos o complejos.
     p.mb-5(data-aos="fade-right") A continuación, se presenta un ejemplo de la estructura de este tipo de base de datos:
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      p.mb-0 #[b Figura 1]. Representación de una base de datos Clave-Valor
+      p.mb-0 #[b Figura 1]. Representación de una base de datos clave-valor
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 800px" ,alt='Texto que describa la imagen').m-auto
+    p.mb-5 Este tipo de estructura de almacenamiento es similar a otros tipos de estructura que se utilizan en programación para el procesamiento de colecciones en memoria temporal, como son los diccionarios y las tablas Hash.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5 
@@ -97,7 +98,7 @@
                 img(src='@/assets/curso/tema1/img5.svg', style="width: 360px" ,alt='Texto que describa la imagen').m-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Como hemos indicado, son altamente flexibles, divisibles y permiten el escalado horizontal a niveles que otros tipos de bases de datos no pueden alcanzar. Algunos ejemplos de aplicaciones que usan este tipo de base de datos:
+                p Como hemos indicado, son altamente flexibles, divisibles y permiten el escalado horizontal a niveles que otros tipos de bases de datos no pueden alcanzar. Algunos ejemplos de aplicaciones que usan este tipo de base de datos son:
                 ul.lista-ul.mb-0
                   li.d-flex
                     i.fas.fa-circle(style="color: #0097F1")
@@ -128,43 +129,43 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://redis.io" target="_blank") https://redis.io
+                  a(href="https://redis.io" target="_blank") #[u https://redis.io]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img6.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://couchdb.apache.org" target="_blank") https://couchdb.apache.org
+                  a(href="https://couchdb.apache.org" target="_blank") #[u https://couchdb.apache.org]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img7.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.project-voldemort.com/voldemort/" target="_blank") https://www.project-voldemort.com/voldemort/
+                  a(href="https://www.project-voldemort.com/voldemort/" target="_blank") #[u https://www.project-voldemort.com/voldemort/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img8.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://aws.amazon.com/es/dynamodb/" target="_blank") https://aws.amazon.com/es/dynamodb/
+                  a(href="https://aws.amazon.com/es/dynamodb/" target="_blank") #[u https://aws.amazon.com/es/dynamodb/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img9.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://riak.com" target="_blank") https://riak.com
+                  a(href="https://riak.com" target="_blank") #[u https://riak.com]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img10.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.oracle.com/co/database/technologies/related/berkeleydb.html" target="_blank") https://www.oracle.com/co/database/technologies/related/berkeleydb.html
+                  a(href="https://www.oracle.com/co/database/technologies/related/berkeleydb.html" target="_blank") #[u https://www.oracle.com/co/database/technologies/related/berkeleydb.html]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img11.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://aerospike.com" target="_blank") https://aerospike.com
+                  a(href="https://aerospike.com" target="_blank") #[u https://aerospike.com]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -182,7 +183,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style="width: 360px" ,alt='Texto que describa la imagen').m-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 En este tipo de base de datos, la información no está contenida en tablas, sino que se compone de una estructura de datos semiestructurada, agrupada por colecciones de objetos o documentos de tipo JSON, XML, YAML o archivos de texto, los cuales, a su vez, pueden estar estructurados por diferentes tipos de datos primitivos o compuestos. Este es un modelo eficiente e intuitivo para los desarrolladores de software.
+                p.mb-0 En este tipo de base de datos, la información no está contenida en tablas, sino que se compone de una estructura de datos semiestructurada, agrupada por colecciones de objetos o documentos de tipo JSON, XML, YAML o archivos de texto, los cuales, a su vez, pueden estar estructurados por diferentes tipos de datos primitivos o compuestos. Este es un modelo eficiente e intuitivo para los desarrolladores de #[i software].
     p(data-aos="fade-right") Estas bases de datos semiestructuradas facilitan la versatilidad, por lo que pueden evolucionar según las necesidades de las aplicaciones, y, entre sus ventajas, ofrece la posibilidad de gestión de información semiestructurada, que puede albergar gran cantidad de información con diversos tipos de datos; ya que no tiene un esquema formal o rígido, simplifican las tareas de inserción y actualización de datos.
     p(data-aos="fade-right") Las aplicaciones web y móviles actuales están sometidas a gran cantidad de cambios en las estructuras de información que gestionan, por lo cual este tipo de bases de datos NoSQL se adecúan muy bien a este tipo de contextos.
     p.mb-5(data-aos="fade-right") A continuación, se observa un ejemplo de una posible estructura para una base de datos tipo documental.
@@ -193,11 +194,11 @@
         .p-4
           figure
             img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='Texto que describa la imagen').m-auto
-    p.mb-5(data-aos="fade-right") De acuerdo con la información ya proporcionada,
+    p.mb-5(data-aos="fade-right") De acuerdo con la información ya proporcionada:
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.bg-c5.mb-4.mb-lg-0
         .p-4
-          p.fs-4 #[b ¿dónde es posible encontrar este tipo de base de datos?]
+          p.fs-4 #[b ¿Dónde es posible encontrar este tipo de base de datos?]
       .col-lg-8
         .cajon.color-primario.p-4
           p.mb-0 Las aplicaciones que comúnmente utilizan estas representaciones son los catálogos, perfiles de usuario y los sistemas de administración de contenido.
@@ -216,33 +217,33 @@
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img12.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img13.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.mongodb.com" target="_blank") https://www.mongodb.com
+                  a(href="https://www.mongodb.com" target="_blank") #[u https://www.mongodb.com]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img13.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img14.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://ravendb.net" target="_blank") https://ravendb.net
+                  a(href="https://ravendb.net" target="_blank") #[u https://ravendb.net]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img14.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img15.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.marklogic.com" target="_blank") https://www.marklogic.com
+                  a(href="https://www.marklogic.com" target="_blank") #[u https://www.marklogic.com]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img15.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img16.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://azure.microsoft.com/es-es/services/cosmos-db/" target="_blank") https://azure.microsoft.com/es-es/services/cosmos-db/
+                  a(href="https://azure.microsoft.com/es-es/services/cosmos-db/" target="_blank") #[u https://azure.microsoft.com/es-es/services/cosmos-db/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img16.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img17.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://orientdb.org" target="_blank") https://orientdb.org
+                  a(href="https://orientdb.org" target="_blank") #[u https://orientdb.org]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -251,11 +252,11 @@
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos de tipo grafo
     p(data-aos="fade-right") Esta base de datos se caracteriza por representar la información por medio de vértices y aristas, lo que la asocia directamente con la teoría de grafos, ampliamente estudiada en la matemática y las ciencias de la computación.
-    p.mb-5(data-aos="fade-right") Entonces,
+    p.mb-5(data-aos="fade-right") Entonces:
     .row.align-items-center.mb-5
       .col-lg-4.bg-c6.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4
-          p.fs-4 #[b ¿qué se entiende por nodo o vértice?]
+          p.fs-4 #[b ¿Qué se entiende por nodo o vértice?]
       .col-lg-8(data-aos="fade-left")
         .tarjeta-avatar-b.mb-4.mb-lg-0
           .tarjeta-avatar-b__img
@@ -271,7 +272,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul2
-            .p-4
+            .p-5
               p.mb-0 Otra característica clave es que las relaciones pueden almacenar información adicional y no existen restricciones sobre la forma en la que se establecen dichas relaciones, es decir, pueden ser sin dirección, unidireccionales o bidireccionales. Esta característica le permite tener un altísimo rendimiento en la búsqueda de resultados y el descubrimiento de nueva información.
     p.mb-5(data-aos="fade-right") A continuación, un ejemplo gráfico de la representación de una base de datos de tipo grafo:
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
@@ -302,31 +303,31 @@
                   figure
                     img(src='@/assets/curso/tema1/img19.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://neo4j.com/" target="_blank") https://neo4j.com/
+                  a(href="https://neo4j.com/" target="_blank") #[u https://neo4j.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img20.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.tigergraph.com/" target="_blank") https://www.tigergraph.com/
+                  a(href="https://www.tigergraph.com/" target="_blank") #[u https://www.tigergraph.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img21.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.graphengine.io/" target="_blank") https://www.graphengine.io/
+                  a(href="https://www.graphengine.io/" target="_blank") #[u https://www.graphengine.io/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img22.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://www.arangodb.com/" target="_blank") https://www.arangodb.com/
+                  a(href="https://www.arangodb.com/" target="_blank") #[u https://www.arangodb.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img23.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
                 td
-                  a(href="https://titan.thinkaurelius.com/" target="_blank") https://titan.thinkaurelius.com/
+                  a(href="https://titan.thinkaurelius.com/" target="_blank") #[u https://titan.thinkaurelius.com/]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -338,9 +339,9 @@
     p.mb-5(data-aos="fade-right") A continuación, se hace un paralelo de algunas de las características más importantes que diferencian un sistema SQL de un sistema NoSQL (AWS, 2021).
     .row
       .col-12.bg-c7(data-aos="fade-right")
-        .p-4
+        .p-1.p-md-4
           SlyderF(columnas="col-12")
-            .tarjeta.color-acento-contenido.p-4
+            .tarjeta.color-acento-contenido.p-1.p-md-4
               p.text-center.mb-4 #[b Modelos de datos]
               .row
                 .col-lg.m-2
@@ -363,7 +364,7 @@
                       .p-4
                         figure.mb-4
                           img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
-                        p p Existe gran variedad de sistemas de representación, entre los que se destacan los clave-valor, documentales y grafos, que no se ciñen a un esquema rígido, por lo cual se garantiza la integridad referencial (esta labor recae sobre los desarrolladores).
+                        p Existe gran variedad de sistemas de representación, entre los que se destacan los clave-valor, documentales y grafos, que no se ciñen a un esquema rígido, por lo cual se garantiza la integridad referencial (esta labor recae sobre los desarrolladores).
                         p.mb-0 Permiten la optimización para el rendimiento y el crecimiento a gran escala.
             .tarjeta.color-acento-contenido.p-4
               p.text-center.mb-4 #[b Propiedades ACID (Atomicidad, Coherencia, Aislamiento y Durabilidad)]
@@ -380,7 +381,7 @@
                           li.d-flex
                             .lista-ol--cuadro__vineta
                               span 1
-                            | La atomicidad de las transacciones tiene garantía de ejecución al 100% o no se ejecutan en absoluto.
+                            | La atomicidad de las transacciones tiene garantía de ejecución al 100 % o no se ejecutan en absoluto.
                           li.d-flex
                             .lista-ol--cuadro__vineta
                               span 2
@@ -413,7 +414,7 @@
                       .p-4
                         figure.mb-4
                           img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
-                        p.mb-0 Presentan un alto procesamiento de transacción online (OLTP) y de procesamiento analítico online (OLAP).
+                        p.mb-0 Presentan un alto procesamiento de transacción #[i online] (OLTP) y de procesamiento analítico #[i online] (OLAP).
                 .col-lg.m-2
                   .row.justify-content-center
                     .col-auto.bg-c9

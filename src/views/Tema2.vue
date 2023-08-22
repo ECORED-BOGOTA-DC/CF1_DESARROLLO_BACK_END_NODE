@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
       .col-lg-8(data-aos="fade-left")
-        p MongoDB es uno de los sistemas gestores de bases de datos NoSQL de tipo documental más famosos del mercado; su nombre viene del término en inglés humongous, que significa gigantesco. Ofrece un conjunto de soluciones, entre las que se incluye la posibilidad de trabajar con servidores que se pueden descargar y configurar en el equipo físico o servicios alojados en la nube por medio del gestor Atlas.
+        p MongoDB es uno de los sistemas gestores de bases de datos NoSQL de tipo documental más famosos del mercado; su nombre viene del término en inglés #[i humongous], que significa gigantesco. Ofrece un conjunto de soluciones, entre las que se incluye la posibilidad de trabajar con servidores que se pueden descargar y configurar en el equipo físico o servicios alojados en la nube por medio del gestor Atlas.
         p Este gestor de bases de datos NoSQL fue escrito en lenguaje C ++, pero todas las consultas usadas para la gestión de la información utilizan el formato BSON, que es similar al formato JSON, ampliamente utilizado por los desarrolladores web y móviles, para los procesos de transferencia de información a través de Internet.
         p.mb-0 Se presenta, entonces, la forma de hacer su instalación; luego, su configuración; y finalmente, su administración:
     .row.align-items-center.mb-4(data-aos="fade-right")
@@ -44,7 +44,7 @@
         .px-5.pt-5
           .row.align-items-center.mb-5
             .col-12
-              p.mb-0 Posteriormente, el sistema ingresará al dashboard de configuración general de MongoDB, Atlas, en el que se recomienda realizar las configuraciones iniciales de seguridad. En este espacio, se establecen las credenciales de acceso necesarias para la gestión de la base de datos. Para conocer cómo se realiza este proceso, le invitamos a ver el siguiente video:
+              p.mb-0 Posteriormente, el sistema ingresará al #[i dashboard] de configuración general de MongoDB, Atlas, en el que se recomienda realizar las configuraciones iniciales de seguridad. En este espacio, se establecen las credenciales de acceso necesarias para la gestión de la base de datos. Para conocer cómo se realiza este proceso, le invitamos a ver el siguiente video:
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -55,7 +55,7 @@
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Administración de MongoDB
-    p.mb-5(data-aos="fade-right") Una vez terminada la configuración básica de seguridad, podrá acceder al dashboard para la administración general de la base de datos NoSQL. Tenga en cuenta que este servicio de base de datos se encuentra administrado por el proveedor Cloud seleccionado y que la base de datos se alberga en un clúster. Para conocer cómo se realizan los pasos de administración, vea lo siguiente:
+    p.mb-5(data-aos="fade-right") Una vez terminada la configuración básica de seguridad, podrá acceder al #[i dashboard] para la administración general de la base de datos NoSQL. Tenga en cuenta que este servicio de base de datos se encuentra administrado por el proveedor Cloud seleccionado y que la base de datos se alberga en un clúster. Para conocer cómo se realizan los pasos de administración, vea lo siguiente:
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -169,8 +169,13 @@
     ModalA(:abrir-modal.sync="modal8")
       .row
         .col-12
-          figure
+          figure.mb-3
             img(src='@/assets/curso/tema2/img8.jpg', style="width: 950px" ,alt='Texto que describa la imagen').m-auto
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #FFC202")
+              |
+              p.mb-0 Clic derecho sobre la imagen y abrir imagen en nueva pestaña para una mejor visualización.
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
@@ -185,7 +190,7 @@
             img(src='@/assets/curso/tema2/img2.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
       .row.align-items-center.justify-content-center(titulo="Conjunto de elementos")
         .col-lg-6.mb-4.mb-lg-0
-          p.mb-0 Las bases de datos se almacenan en los clústeres y representan el conjunto de elementos que sirven para la gestión de información correspondiente a una solución de software particular y toda la información asociada a estos elementos, incluyendo los mismos datos. En un clúster, pueden existir varias bases de datos, cada una de las cuales responderá a soluciones de software diferentes.
+          p.mb-0 Las bases de datos se almacenan en los clústeres y representan el conjunto de elementos que sirven para la gestión de información correspondiente a una solución de #[i software] particular y toda la información asociada a estos elementos, incluyendo los mismos datos. En un clúster, pueden existir varias bases de datos, cada una de las cuales responderá a soluciones de #[i software] diferentes.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img3.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
@@ -216,7 +221,7 @@
         .row
           .col-12.bg-c12
             .px-4.py-5
-              p.text-center Este documento representa a una persona con los atributos de nombre, apellido, id y edad. Note que cada atributo (campo) se expresa con la estructura clave-valor, donde la clave es una cadena de texto y el valor es representado por un tipo de dato primitivo (#[i String] y #[i Int]).
+              p.text-center Este documento representa a una persona con los atributos de nombre, apellido, id y edad. Note que cada atributo (campo) se expresa con la estructura clave-valor, donde la clave es una cadena de texto y el valor es representado por un tipo de dato primitivo (String y Int).
       .col-10.col-md-8.col-lg.m-2
         figure.mb-4
           img(src='@/assets/curso/tema2/img4.svg', style="width: 400px" ,alt='Texto que describa la imagen').m-auto
@@ -269,7 +274,7 @@
     p(data-aos="fade-right") Los operadores de comparación, como su nombre lo indica, sirven para restringir las condiciones que deben ser evaluadas por el motor para determinar el conjunto de datos que puede ser afectado por el comando. Normalmente, son utilizados para ejecutar comandos de consulta o de manipulación de información en las colecciones.
     p.mb-5(data-aos="fade-right") En la siguiente tabla, se muestran los operadores de MongoDB, su equivalente en un ambiente relacional y su significado.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      p.mb-0 #[b Tabla 5]. Operadores de comparación en MongoDB
+      p.mb-0 #[b Tabla 4]. Operadores de comparación en MongoDB
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.color-acento-contenido
@@ -281,37 +286,37 @@
                 th Significado
             tbody
               tr
-                td.text-center #[i $eq]
-                td.text-center #[i =]
-                td #[i Igual que (equal)]
+                td.text-center $eq
+                td.text-center =
+                td Igual que (#[i equal])
               tr
-                td.text-center #[i $ne]
-                td.text-center #[i <>]
-                td #[i Distinto de (not equal)]
+                td.text-center $ne
+                td.text-center <>
+                td Distinto de (#[i not equal])
               tr
-                td.text-center #[i $gt]
-                td.text-center #[i >]
-                td #[i Valores mayores que (greater than)]
+                td.text-center $gt
+                td.text-center >
+                td Valores mayores que (#[i greater than])
               tr
-                td.text-center #[i $gte]
-                td.text-center #[i >=]
-                td #[i Valores mayores o iguales que (greater than or equal)]
+                td.text-center $gte
+                td.text-center >=
+                td Valores mayores o iguales que (#[i greater than or equal])
               tr
-                td.text-center #[i $lt]
-                td.text-center #[i <]
-                td #[i Valores menores que (lower than)]
+                td.text-center $lt
+                td.text-center <
+                td Valores menores que (#[i lower than])
               tr
-                td.text-center #[i $lte]
-                td.text-center #[i <=]
-                td #[i Valores menores o iguales que (lower than or equal)]
+                td.text-center $lte
+                td.text-center <=
+                td Valores menores o iguales que (#[i lower than or equal])
               tr
-                td.text-center #[i $in]
-                td.text-center #[i IN]
-                td #[i Sus valores se encuentran dentro del array especificado]
+                td.text-center $in
+                td.text-center IN
+                td Sus valores se encuentran dentro del #[i array] especificado
               tr
-                td.text-center #[i $nin]
-                td.text-center #[i NOT IN]
-                td #[i Operación contraria a $in, obtiene los documentos cuyo valor NO estén en el array]
+                td.text-center $nin
+                td.text-center NOT IN
+                td Operación contraria a $in, obtiene los documentos cuyo valor NO estén en el #[i array]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -325,7 +330,7 @@
           img(src='@/assets/curso/tema2/img7.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
       .col-lg-8(data-aos="fade-left")
         p Estos operadores existen para identificar si una clave/campo se define dentro de su estructura y valida el tipo de dato asociado a un campo particular, esto teniendo en cuenta que las estructuras en MongoDB se construyen y evolucionan de forma dinámica, ya que no tienen un esquema rígido de almacenamiento.
-        p MongoDB utiliza el operador $exists para determinar la existencia de un campo dentro de la definición de un documento en una colección y el operador $type para comprobar el tipo de dato asociado a un campo particular;
+        p MongoDB utiliza el operador $exists para determinar la existencia de un campo dentro de la definición de un documento en una colección y el operador $type para comprobar el tipo de dato asociado a un campo particular.
         p.mb-0 Observe algunos ejemplos del uso de este tipo de operadores:
     TabsB.color-acento-contenido.mb-5(data-aos="fade-down")
       .py-4.py-md-5(titulo="Ejemplo 1" :icono="require('@/assets/curso/tema2/img7.svg')")
@@ -341,7 +346,7 @@
           .col-lg-6
             .p-4
               p #[b Interpretación]
-              p.mb-0 En este comando, se están consultando los documentos de la colección productos, donde existe o no  el campo “nombre ”. Luego, pretty() formatea el resultado en un estructura tipo JSON, fácil de interpretar visualmente.
+              p.mb-0 En este comando, se están consultando los documentos de la colección productos, donde existe o no  el campo “nombre ”. Luego, pretty() formatea el resultado en una estructura tipo JSON, fácil de interpretar visualmente.
       .py-4.py-md-5(titulo="Ejemplo 2" :icono="require('@/assets/curso/tema2/img7.svg')")
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -371,7 +376,7 @@
         p Estos operadores permiten crear condiciones más complejas en el proceso de manipulación de datos en colecciones de una base de datos MongoDB; funcionan y se interpretan igual que los operadores lógicos de cualquier lenguaje de programación y siguen la lógica proposicional con todas sus tablas de verdad.
         p.mb-0 Observe, en la siguiente tabla, algunos de los operadores lógicos más utilizados y su equivalente:
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      p.mb-0 #[b Tabla 6]. Operadores lógicos en MongoDB
+      p.mb-0 #[b Tabla 5]. Operadores lógicos en MongoDB
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.color-acento-contenido
@@ -383,13 +388,17 @@
                 th Ejemplo
             tbody
               tr
-                td.text-center #[i $or]
-                td.text-center #[i OR]
-                td #[i Filtra de los documentos de la colección productos que cumplan alguna de las condiciones del array db.productos.find({ $or: &lsqb; {"id":{$exists:"true"}},{"valor":{$gt:10}} &rsqb; }).pretty(). En este caso, las dos condiciones a evaluar son que el campo id exista {"id":{$exists:"true"} o que el campo valor sea mayor que 10 {"valor":{$gt:10}}]
+                td.text-center $or
+                td.text-center OR
+                td
+                  p Filtra de los documentos de la colección productos que cumplan alguna de las condiciones del array db.productos.find({ $or: &lsqb; {"id":{$exists:"true"}},{"valor":{$gt:10}} &rsqb; }).pretty().
+                  p.mb-0 En este caso, las dos condiciones a evaluar son que el campo id exista {"id":{$exists:"true"} o que el campo valor sea mayor que 10 {"valor":{$gt:10}}
               tr
-                td.text-center #[i $and]
-                td.text-center #[i AND]
-                td #[i Similar a $or, pero, en este caso, los documentos deben cumplir todas las condiciones del array db.productos.find({$and: &lsqb; {"id":{$exists:"true"}},{"valor":{$gt:10}} &rsqb; }).pretty(). Su uso puede resultar superfluo, teniendo en cuenta que en un filtro normal las condiciones indicadas se juntan mediante operadores lógicos Y db.productos.find({"id":{$exists:"true"},"valor":{$gt:10}}).pretty()]
+                td.text-center $and
+                td.text-center AND
+                td
+                  p Similar a $or, pero, en este caso, los documentos deben cumplir todas las condiciones del array db.productos.find({$and: &lsqb; {"id":{$exists:"true"}},{"valor":{$gt:10}} &rsqb; }).pretty().
+                  p.mb-0 Su uso puede resultar superfluo, teniendo en cuenta que en un filtro normal las condiciones indicadas se juntan mediante operadores lógicos Y db.productos.find({"id":{$exists:"true"},"valor":{$gt:10}}).pretty()
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
