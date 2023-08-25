@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis resume los temas abordados een el componente formativo, en este caso para el componente denominado Bases de datos NoSQL, donde exixten diversos tipos como los grafos, los documentales entre otros, adicionalmente se profundizó en las características de las bases de datos no relacionales y se detalla sobre la plataforma de MongoDB.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

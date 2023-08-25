@@ -9,7 +9,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img1.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img1.png', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p MongoDB es uno de los sistemas gestores de bases de datos NoSQL de tipo documental más famosos del mercado; su nombre viene del término en inglés #[i humongous], que significa gigantesco. Ofrece un conjunto de soluciones, entre las que se incluye la posibilidad de trabajar con servidores que se pueden descargar y configurar en el equipo físico o servicios alojados en la nube por medio del gestor Atlas.
         p Este gestor de bases de datos NoSQL fue escrito en lenguaje C ++, pero todas las consultas usadas para la gestión de la información utilizan el formato BSON, que es similar al formato JSON, ampliamente utilizado por los desarrolladores web y móviles, para los procesos de transferencia de información a través de Internet.
@@ -17,7 +17,7 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Instalación de MongoDB
@@ -35,7 +35,7 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Configuración de MongoDB
@@ -51,7 +51,7 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Administración de MongoDB
@@ -59,7 +59,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img1.svg', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img1.svg', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         .tarjeta.tarjeta--gris.p-4
           PasosB.color-acento-contenido
@@ -135,42 +135,42 @@
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img1.jpg', style="width: 1200px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img1.jpg', style="width: 1200px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal2")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img2.jpg', style="width: 600px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img2.jpg', style="width: 600px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal3")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img3.jpg', style="width: 900px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img3.jpg', style="width: 900px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal4")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img4.jpg', style="width: 550px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img4.jpg', style="width: 550px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal5")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img5.jpg', style="width: 550px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img5.jpg', style="width: 550px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal6")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img6.jpg', style="width: 1200px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img6.jpg', style="width: 1200px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal7")
       .row
         .col-12
           figure
-            img(src='@/assets/curso/tema2/img7.jpg', style="width: 1100px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img7.jpg', style="width: 1100px" ,alt='').m-auto
     ModalA(:abrir-modal.sync="modal8")
       .row
         .col-12
           figure.mb-3
-            img(src='@/assets/curso/tema2/img8.jpg', style="width: 950px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img8.jpg', style="width: 950px" ,alt='').m-auto
           ul.lista-ul.mb-0
             li.d-flex
               i.fas.fa-check(style="color: #FFC202")
@@ -187,51 +187,51 @@
           p.mb-0 En primer lugar, se encuentra el clúster, que es una agrupación de equipos de cómputo llamados nodos, que trabajan en forma conjunta para la gestión de la información presente en la base de datos, es decir, este primer nivel corresponde primordialmente a  infraestructura tecnológica.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img2.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img2.png', style="width: 350px" ,alt='').m-auto
       .row.align-items-center.justify-content-center(titulo="Conjunto de elementos")
         .col-lg-6.mb-4.mb-lg-0
           p.mb-0 Las bases de datos se almacenan en los clústeres y representan el conjunto de elementos que sirven para la gestión de información correspondiente a una solución de #[i software] particular y toda la información asociada a estos elementos, incluyendo los mismos datos. En un clúster, pueden existir varias bases de datos, cada una de las cuales responderá a soluciones de #[i software] diferentes.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img3.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img3.png', style="width: 350px" ,alt='').m-auto
       .row.align-items-center.justify-content-center(titulo="Colecciones")
         .col-lg-6.mb-4.mb-lg-0
           p.mb-0 Dentro de las bases de datos, se registran las colecciones que agrupan a un conjunto de documentos que representan una misma unidad de información. Si se compara con una base de datos relacional, es un documento que corresponde a una tabla.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img4.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img4.png', style="width: 350px" ,alt='').m-auto
       .row.align-items-center.justify-content-center(titulo="Estructura documental")
         .col-lg-6.mb-4.mb-lg-0
           p Los documentos representan el núcleo de una estructura documental con información que corresponde a un objeto u entidad del mundo real perteneciente al contexto de la aplicación. En un documento, se estructuran, de forma dinámica, los atributos (campos) que caracterizan dichos objetos descritos estructuralmente como pares clave-valor.
           p.mb-0 Nuevamente, si se realiza una comparación con el modelo relacional, un documento equivale a una tupla o fila en una tabla.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img5.png', style="width: 350px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img5.png', style="width: 350px" ,alt='').m-auto
     p.mb-5(data-aos="fade-right") Para un mejor entendimiento de esta jerarquía, la siguiente figura presenta gráficamente la relación de los elementos ya descritos:
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 4]. Jerarquías de almacenamiento en MongoDB
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema2/img2.svg', style="width: 400px" ,alt='Texto que describa la imagen').m-auto
+      img(src='@/assets/curso/tema2/img2.svg', style="width: 400px" ,alt='Figura 4. Muestra las jerarquias que presenta el almacenamiento en MongoDB, esto es, la cantidad de espacio de almacenamiento, los documentos en sus campos y todo esto compone la base de datos.').m-auto
     p(data-aos="fade-right") Los documentos son abstracciones de una entidad u objeto del mundo real que expresa sus características por un conjunto de pares clave-valor. La clave o nombre del campo siempre son cadenas de texto y los valores pueden ser de cualquier tipo de dato primitivo o tipos de datos complejos.
     p.mb-5(data-aos="fade-right") A continuación, se presentan algunos ejemplos de documentos caracterizados por diferentes tipos de datos:
     .row.justify-content-center(data-aos="fade-left")
       .col-10.col-md-8.col-lg.m-2
         figure.mb-4
-          img(src='@/assets/curso/tema2/img3.svg', style="width: 400px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img3.svg', style="width: 400px" ,alt='').m-auto
         .row
           .col-12.bg-c12
             .px-4.py-5
               p.text-center Este documento representa a una persona con los atributos de nombre, apellido, id y edad. Note que cada atributo (campo) se expresa con la estructura clave-valor, donde la clave es una cadena de texto y el valor es representado por un tipo de dato primitivo (String y Int).
       .col-10.col-md-8.col-lg.m-2
         figure.mb-4
-          img(src='@/assets/curso/tema2/img4.svg', style="width: 400px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img4.svg', style="width: 400px" ,alt='').m-auto
         .row
           .col-12.bg-c13
             .px-4.py-5
               p.text-center Este documento representa los datos básicos de una persona y los tipos de carros que le gustan. Note que en este ejemplo, la clave “cars” tiene asociado un tipo de dato compuesto, una colección de Strings. Las colecciones dentro de un documento se agrupan por medio de corchetes [ , ].
       .col-10.col-md-8.col-lg.m-2
         figure.mb-4
-          img(src='@/assets/curso/tema2/img5.svg', style="width: 400px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img5.svg', style="width: 400px" ,alt='').m-auto
         .row
           .col-12.bg-c14
             .px-4.py-5
@@ -244,7 +244,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img6.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img6.png', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p Los comandos básicos que se pueden utilizar para la manipulación y gestión de las bases de datos en MongoDB pueden ser ejecutados una vez se establece la conexión con el servidor, ya sea desde su cliente web o desde una aplicación externa.
         p A diferencia de las bases de datos relacionales, en MongoDB no existe una separación de comandos para la creación de estructuras como en el caso de las sentencias DDL de SQL y comandos para la manipulación de las estructuras creadas como las sentencias DML en SQL. Este tipo de base de datos busca tener mayor flexibilidad y adaptabilidad, por lo que una consulta sobre una estructura inexistente puede hacer que el motor de base de datos cree dicha estructura de forma automática.
@@ -267,7 +267,7 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Operadores de comparación
@@ -320,14 +320,14 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Operadores de elemento
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img7.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img7.png', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p Estos operadores existen para identificar si una clave/campo se define dentro de su estructura y valida el tipo de dato asociado a un campo particular, esto teniendo en cuenta que las estructuras en MongoDB se construyen y evolucionan de forma dinámica, ya que no tienen un esquema rígido de almacenamiento.
         p MongoDB utiliza el operador $exists para determinar la existencia de un campo dentro de la definición de un documento en una colección y el operador $type para comprobar el tipo de dato asociado a un campo particular.
@@ -364,14 +364,14 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Operadores lógicos
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-md-auto.mb-4.mb-md-0
         figure
-          img(src='@/assets/curso/tema2/img8.png', style="width: 120px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img8.png', style="width: 120px" ,alt='').m-auto
       .col
         p Estos operadores permiten crear condiciones más complejas en el proceso de manipulación de datos en colecciones de una base de datos MongoDB; funcionan y se interpretan igual que los operadores lógicos de cualquier lenguaje de programación y siguen la lógica proposicional con todas sus tablas de verdad.
         p.mb-0 Observe, en la siguiente tabla, algunos de los operadores lógicos más utilizados y su equivalente:
@@ -402,7 +402,7 @@
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Operadores sobre #[i arrays]
@@ -419,7 +419,7 @@
               p.mb-0 El #[i array] debe contener todos los valores indicados en el parámetro, que a su vez es un #[i array] db.productos.find({"ciudad":{$all:["cali","bogota"]}}).pretty()
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img8.svg', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img8.svg', style="width: 450px" ,alt='').m-auto
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-4.mb-lg-0
               p-mb-0 #[b Operador]
@@ -428,7 +428,7 @@
               p.mb-0 Especifica el tamaño del #[i array] db.productos.find({"ciudad":{$size:2}}).pretty()
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img9.svg', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img9.svg', style="width: 450px" ,alt='').m-auto
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-4.mb-lg-0
               p-mb-0 #[b Operador]
@@ -438,7 +438,7 @@
               p.mb-0 { "alumno": { $elemMatch: { "nombre" : "Maria", "edad": 23 }}}
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img10.svg', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img10.svg', style="width: 450px" ,alt='').m-auto
 
 </template>
 

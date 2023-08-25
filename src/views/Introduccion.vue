@@ -13,7 +13,7 @@
           .row.align-items-center.mb-5(data-aos="fade-right")
             .col-md-auto.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/intro/img1.png', style="width: 80px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/intro/img1.png', style="width: 80px" ,alt='').m-auto
             .col
               p.mb-0 Cordial bienvenida a este componente formativo en el que trataremos la gestión de bases de datos NoSQL con MongoDB; para conocer la importancia del tema y los diferentes temas que se incluirán, le invitamos a ver el siguiente video:
           figure(data-aos="fade-left")

@@ -9,7 +9,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img1.png', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p El concepto de bases de datos NoSQL está ampliamente divulgado en el entorno del desarrollo de #[i software] para identificar aquellos sistemas de bases de datos que no son gestionados bajo el estándar de SQL y/o no se pueden clasificar dentro de las bases de datos relacionales.
         p Estas bases de datos NoSQL son una forma de solucionar los problemas de diseño de bases de datos que no podían ser resueltos mediante los sistemas de bases de datos relacionales o que, en caso de ser implementados (los sistemas de bases de datos relacionales), representaban un manejo de estructuras demasiado complejas que sacrificaban el rendimiento de las aplicaciones que hacían uso de estas. En este sentido, las bases de datos NoSQL permiten resolver problemas en contextos específicos.
@@ -34,7 +34,7 @@
                 p.mb-0 Información relacionada con un problema particular.
           .col-lg-4.mb-4.mb-lg-0
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img2.svg', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema1/img2.svg', style="width: 370px" ,alt='').m-auto
           .col-lg-4
             p #[b NoSQL]
             ul.lista-ul.mb-0
@@ -57,11 +57,11 @@
         p.mb-0 Según AWS (2021), las bases de datos NoSQL más representativas son las siguientes:
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img2.png', style="width: 370px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img2.png', style="width: 370px" ,alt='').m-auto
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos clave-valor
@@ -87,7 +87,7 @@
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 1]. Representación de una base de datos clave-valor
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img4.svg', style="width: 800px" ,alt='Texto que describa la imagen').m-auto
+      img(src='@/assets/curso/tema1/img4.svg', style="width: 800px" ,alt='Figura 1. Muestra la representación de una base de datos clave-valor.').m-auto
     p.mb-5 Este tipo de estructura de almacenamiento es similar a otros tipos de estructura que se utilizan en programación para el procesamiento de colecciones en memoria temporal, como son los diccionarios y las tablas Hash.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
@@ -95,7 +95,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img5.svg', style="width: 360px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img5.svg', style="width: 360px" ,alt='').m-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p Como hemos indicado, son altamente flexibles, divisibles y permiten el escalado horizontal a niveles que otros tipos de bases de datos no pueden alcanzar. Algunos ejemplos de aplicaciones que usan este tipo de base de datos son:
@@ -127,49 +127,49 @@
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img5.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img5.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://redis.io" target="_blank") #[u https://redis.io]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img6.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img6.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://couchdb.apache.org" target="_blank") #[u https://couchdb.apache.org]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img7.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img7.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.project-voldemort.com/voldemort/" target="_blank") #[u https://www.project-voldemort.com/voldemort/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img8.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img8.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://aws.amazon.com/es/dynamodb/" target="_blank") #[u https://aws.amazon.com/es/dynamodb/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img9.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img9.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://riak.com" target="_blank") #[u https://riak.com]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img10.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img10.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.oracle.com/co/database/technologies/related/berkeleydb.html" target="_blank") #[u https://www.oracle.com/co/database/technologies/related/berkeleydb.html]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img11.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img11.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://aerospike.com" target="_blank") #[u https://aerospike.com]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos documentales
@@ -180,7 +180,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img6.svg', style="width: 360px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img6.svg', style="width: 360px" ,alt='').m-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-0 En este tipo de base de datos, la información no está contenida en tablas, sino que se compone de una estructura de datos semiestructurada, agrupada por colecciones de objetos o documentos de tipo JSON, XML, YAML o archivos de texto, los cuales, a su vez, pueden estar estructurados por diferentes tipos de datos primitivos o compuestos. Este es un modelo eficiente e intuitivo para los desarrolladores de #[i software].
@@ -193,7 +193,7 @@
       .col-12.bg-c4
         .p-4
           figure
-            img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='').m-auto
     p.mb-5(data-aos="fade-right") De acuerdo con la información ya proporcionada:
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.bg-c5.mb-4.mb-lg-0
@@ -217,37 +217,37 @@
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img13.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img13.svg', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.mongodb.com" target="_blank") #[u https://www.mongodb.com]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img14.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img14.svg', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://ravendb.net" target="_blank") #[u https://ravendb.net]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img15.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img15.svg', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.marklogic.com" target="_blank") #[u https://www.marklogic.com]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img16.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img16.svg', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://azure.microsoft.com/es-es/services/cosmos-db/" target="_blank") #[u https://azure.microsoft.com/es-es/services/cosmos-db/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img17.svg', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img17.svg', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://orientdb.org" target="_blank") #[u https://orientdb.org]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Bases de datos de tipo grafo
@@ -278,12 +278,12 @@
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 3]. Representación gráfica de bases de datos tipo grafo
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img12.svg', style="width: 1300px" ,alt='Texto que describa la imagen').m-auto
+      img(src='@/assets/curso/tema1/img12.svg', style="width: 1300px" ,alt='Figura 3. realiza la representación de una base de datos tipo grafo que describe la edad de diferentes personajes, el lugar de nacimiento y relación de amistad entre ellos.').m-auto
       figcaption.mt-3 Nota. Tomado de Almagro (2017).
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img18.png', style="width: 410px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img18.png', style="width: 410px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p Este tipo de base de datos facilita la creación y la ejecución de aplicaciones que funcionan con conjuntos de datos altamente conectados. Los casos de uso típicos son los que incluyen redes sociales, motores de recomendaciones, detección de fraude y gráficos de conocimiento.
         p.mb-0 Ya vimos algunos de los sistemas gestores de bases de datos NoSQL más famosos en el mercado, que permiten el uso de la estructura tipo clave-valor y de almacenamiento documental; ahora, es momento de ver los de tipo grafo:
@@ -301,37 +301,37 @@
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img19.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img19.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://neo4j.com/" target="_blank") #[u https://neo4j.com/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img20.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img20.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.tigergraph.com/" target="_blank") #[u https://www.tigergraph.com/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img21.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img21.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.graphengine.io/" target="_blank") #[u https://www.graphengine.io/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img22.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img22.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://www.arangodb.com/" target="_blank") #[u https://www.arangodb.com/]
               tr
                 td
                   figure
-                    img(src='@/assets/curso/tema1/img23.png', style="width: 160px" ,alt='Texto que describa la imagen').m-auto
+                    img(src='@/assets/curso/tema1/img23.png', style="width: 160px" ,alt='').m-auto
                 td
                   a(href="https://titan.thinkaurelius.com/" target="_blank") #[u https://titan.thinkaurelius.com/]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
       .col-auto.bg-c3(style="z-index:1")
         .py-3.px-4
           h3.mb-0.ms-0.ms-md-4.text-white Paralelo entre SQL y NoSQL
@@ -352,7 +352,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img24.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img24.png', style="width: 450px" ,alt='').m-auto
                         p Presenta un esquema rígido conformado por un conjunto de tablas y relaciones; estas tablas se descomponen en columnas y filas, en las que se utilizan índices para agilizar los procesos de recuperación de información. 
                         p.mb-0 Se siguen procesos preestablecidos de normalización que permiten imponer restricciones de integridad referencial de forma muy exitosa.
                 .col-lg.m-2
@@ -363,7 +363,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='').m-auto
                         p Existe gran variedad de sistemas de representación, entre los que se destacan los clave-valor, documentales y grafos, que no se ciñen a un esquema rígido, por lo cual se garantiza la integridad referencial (esta labor recae sobre los desarrolladores).
                         p.mb-0 Permiten la optimización para el rendimiento y el crecimiento a gran escala.
             .tarjeta.color-acento-contenido.p-4
@@ -413,7 +413,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='').m-auto
                         p.mb-0 Presentan un alto procesamiento de transacción #[i online] (OLTP) y de procesamiento analítico #[i online] (OLAP).
                 .col-lg.m-2
                   .row.justify-content-center
@@ -423,7 +423,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img27.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img27.png', style="width: 450px" ,alt='').m-auto
                         p.mb-0 Este tipo de datos es efectivo para sistemas de baja latencia y para el análisis de datos semiestructurados.
             .tarjeta.color-acento-contenido.p-4
               p.text-center.mb-4 #[b API]
@@ -436,7 +436,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img28.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img28.png', style="width: 450px" ,alt='').m-auto
                         p.mb-0 Utilizan el lenguaje de consulta SQL, que se ejecuta del lado del servidor de base de datos,  para almacenar y recuperar la información.
                 .col-lg.m-2
                   .row.justify-content-center
@@ -446,7 +446,7 @@
                     .col-12.bg-c10
                       .p-4
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img29.png', style="width: 450px" ,alt='Texto que describa la imagen').m-auto
+                          img(src='@/assets/curso/tema1/img29.png', style="width: 450px" ,alt='').m-auto
                         p.mb-0 Son óptimas para ser procesadas por APIS construidas por los desarrolladores.
       
 </template>
