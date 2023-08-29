@@ -18,7 +18,7 @@
               p.mb-0 Cordial bienvenida a este componente formativo en el que trataremos la gestión de bases de datos NoSQL con MongoDB; para conocer la importancia del tema y los diferentes temas que se incluirán, le invitamos a ver el siguiente video:
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/60v7aYMVLyk?si=hJhDUUgvHt4N5mBT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 

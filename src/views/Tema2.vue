@@ -31,7 +31,7 @@
                 a(href="https://www.mongodb.com/es" target="_blank") www.mongodb.com
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/hKyjRPye4PY?si=zUrUCQTRbAq32kEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -47,7 +47,7 @@
               p.mb-0 Posteriormente, el sistema ingresará al #[i dashboard] de configuración general de MongoDB, Atlas, en el que se recomienda realizar las configuraciones iniciales de seguridad. En este espacio, se establecen las credenciales de acceso necesarias para la gestión de la base de datos. Para conocer cómo se realiza este proceso, le invitamos a ver el siguiente video:
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/ouSH2zDM2RE?si=nDPtIf7UojDGjOU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
