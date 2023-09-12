@@ -129,43 +129,43 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://redis.io" target="_blank") #[u https://redis.io]
+                  a(href="https://redis.io" target="_blank") #[u.txt-c1 https://redis.io]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img6.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://couchdb.apache.org" target="_blank") #[u https://couchdb.apache.org]
+                  a(href="https://couchdb.apache.org" target="_blank") #[u.txt-c1 https://couchdb.apache.org]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img7.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.project-voldemort.com/voldemort/" target="_blank") #[u https://www.project-voldemort.com/voldemort/]
+                  a(href="https://www.project-voldemort.com/voldemort/" target="_blank") #[u.txt-c1 https://www.project-voldemort.com/voldemort/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img8.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://aws.amazon.com/es/dynamodb/" target="_blank") #[u https://aws.amazon.com/es/dynamodb/]
+                  a(href="https://aws.amazon.com/es/dynamodb/" target="_blank") #[u.txt-c1 https://aws.amazon.com/es/dynamodb/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img9.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://riak.com" target="_blank") #[u https://riak.com]
+                  a(href="https://riak.com" target="_blank") #[u.txt-c1 https://riak.com]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img10.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.oracle.com/co/database/technologies/related/berkeleydb.html" target="_blank") #[u https://www.oracle.com/co/database/technologies/related/berkeleydb.html]
+                  a(href="https://www.oracle.com/co/database/technologies/related/berkeleydb.html" target="_blank") #[u.txt-c1 https://www.oracle.com/co/database/technologies/related/ berkeleydb.html]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img11.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://aerospike.com" target="_blank") #[u https://aerospike.com]
+                  a(href="https://aerospike.com" target="_blank") #[u.txt-c1 https://aerospike.com]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -219,31 +219,31 @@
                   figure
                     img(src='@/assets/curso/tema1/img13.svg', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.mongodb.com" target="_blank") #[u https://www.mongodb.com]
+                  a(href="https://www.mongodb.com" target="_blank") #[u.txt-c1 https://www.mongodb.com]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img14.svg', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://ravendb.net" target="_blank") #[u https://ravendb.net]
+                  a(href="https://ravendb.net" target="_blank") #[u.txt-c1 https://ravendb.net]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img15.svg', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.marklogic.com" target="_blank") #[u https://www.marklogic.com]
+                  a(href="https://www.marklogic.com" target="_blank") #[u.txt-c1 https://www.marklogic.com]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img16.svg', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://azure.microsoft.com/es-es/services/cosmos-db/" target="_blank") #[u https://azure.microsoft.com/es-es/services/cosmos-db/]
+                  a(href="https://azure.microsoft.com/es-es/services/cosmos-db/" target="_blank") #[u.txt-c1 https://azure.microsoft.com/es-es/services/cosmos-db/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img17.svg', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://orientdb.org" target="_blank") #[u https://orientdb.org]
+                  a(href="https://orientdb.org" target="_blank") #[u.txt-c1 https://orientdb.org]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -303,31 +303,31 @@
                   figure
                     img(src='@/assets/curso/tema1/img19.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://neo4j.com/" target="_blank") #[u https://neo4j.com/]
+                  a(href="https://neo4j.com/" target="_blank") #[u.txt-c1 https://neo4j.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img20.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.tigergraph.com/" target="_blank") #[u https://www.tigergraph.com/]
+                  a(href="https://www.tigergraph.com/" target="_blank") #[u.txt-c1 https://www.tigergraph.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img21.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.graphengine.io/" target="_blank") #[u https://www.graphengine.io/]
+                  a(href="https://www.graphengine.io/" target="_blank") #[u.txt-c1 https://www.graphengine.io/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img22.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://www.arangodb.com/" target="_blank") #[u https://www.arangodb.com/]
+                  a(href="https://www.arangodb.com/" target="_blank") #[u.txt-c1 https://www.arangodb.com/]
               tr
                 td
                   figure
                     img(src='@/assets/curso/tema1/img23.png', style="width: 160px" ,alt='').m-auto
                 td
-                  a(href="https://titan.thinkaurelius.com/" target="_blank") #[u https://titan.thinkaurelius.com/]
+                  a(href="https://titan.thinkaurelius.com/" target="_blank") #[u.txt-c1 https://titan.thinkaurelius.com/]
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
         figure
@@ -339,9 +339,9 @@
     p.mb-5(data-aos="fade-right") A continuación, se hace un paralelo de algunas de las características más importantes que diferencian un sistema SQL de un sistema NoSQL (AWS, 2021).
     .row
       .col-12.bg-c7(data-aos="fade-right")
-        .p-1.p-md-4
+        .px-1
           SlyderF(columnas="col-12")
-            .tarjeta.color-acento-contenido.p-1.p-md-4
+            .tarjeta.color-acento-contenido.p-4
               p.text-center.mb-4 #[b Modelos de datos]
               .row
                 .col-lg.m-2
@@ -452,9 +452,10 @@
 </template>
 
 <script>
+import SlyderF from '@/components/SlyderF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SlyderF },
   data: () => ({
     // variables de vue
   }),

@@ -28,7 +28,7 @@
             .col-12
               p.mb-0 A continuación, en el video, se muestra la forma en la que se realiza una instalación exitosa de una instancia gratuita de MongoDB y el servicio de gestión Cloud Atlas, accediendo a la dirección 
                 |
-                a(href="https://www.mongodb.com/es" target="_blank") www.mongodb.com
+                a(href="https://www.mongodb.com/es" target="_blank") #[u.txt-c1 www.mongodb.com]
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/hKyjRPye4PY?si=zUrUCQTRbAq32kEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -62,11 +62,10 @@
           img(src='@/assets/curso/tema2/img1.svg', style="width: 370px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         .tarjeta.tarjeta--gris.p-4
-          PasosB.color-acento-contenido
-            .row(titulo="")
+          LineaTiempoC.color-acento-contenido
+            .row(titulo="Paso 1")
               .col-12
                 .p-4
-                  p #[b Paso 1]
                   p Si es la primera vez que intenta manipular bases de datos NoSQL documentales, se recomienda seguir las sugerencias de Atlas y crear una base de datos de prueba para realizar operaciones y consultas de prueba sobre la misma, a manera de entrenamiento. Esto puede tardar un par de minutos adicionales.
                   .row
                     .col-auto
@@ -77,20 +76,18 @@
                       a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                         span #[b #[i(style="color: #12263F") Load Sample]]
                         .indicador--click(v-if="mostrarIndicador")
-            .row(titulo="")
+            .row(titulo="Paso 2")
               .col-12
                 .p-4
-                  p #[b Paso 2]
                   p Dentro de la misma información de la base de datos, podrá acceder a las opciones de conexión al clúster. Recuerde que los sistemas de bases de datos NoSQL están concebidos para ser administrados por APIS externas construidas por los desarrolladores; por esta razón, el sistema le preguntará el medio de conexión preferido.
                   .row
                     .col-auto
                       a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                         span #[b #[i(style="color: #12263F") Connect]]
                         .indicador--click(v-if="mostrarIndicador")
-            .row(titulo="")
+            .row(titulo="Paso 3")
               .col-12
                 .p-4
-                  p #[b Paso 3]
                   p Si desea conectarse por medio de una terminal de comandos (MongoDB Shell), le serán recomendados, de acuerdo al sistema operativo, los comandos o instalaciones previas a realizar, junto con la cadena de conexión que deberá ejecutar en su terminal para establecer una conexión exitosa con la base de datos.
                   .row
                     .col-auto
@@ -101,30 +98,27 @@
                       a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                         span #[b #[i(style="color: #12263F") Connect]]
                         .indicador--click(v-if="mostrarIndicador")
-            .row(titulo="")
+            .row(titulo="Paso 4")
               .col-12
                 .p-4
-                  p #[b Paso 4]
                   p Una vez finalizada la instalación del #[i shell] de Mongo, pruebe utilizar el comando de conexión provisto por Atlas; tenga en cuenta que esta cadena de conexión utilizará el usuario creado anteriormente en la configuración de seguridad.
                   .row
                     .col-auto
                       a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
                         span #[b #[i(style="color: #12263F") Connect]]
                         .indicador--click(v-if="mostrarIndicador")
-            .row(titulo="")
+            .row(titulo="Paso 5")
               .col-12
                 .p-4
-                  p #[b Paso 5]
                   p Si lo desea, también puede explorar y gestionar las estructuras creadas en la base de datos directamente desde el portal de MongoDB Atlas, por medio de la opción Browse Collections.
                   .row
                     .col-auto
                       a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
                         span #[b #[i(style="color: #12263F") Connect]]
                         .indicador--click(v-if="mostrarIndicador")
-            .row(titulo="")
+            .row(titulo="Paso 6")
               .col-12
                 .p-4
-                  p #[b Paso 6]
                   p El sistema desplegará todas las bases de datos en un panel del lado izquierdo, en el que podrá seleccionar alguna de estas y consultar las colecciones existentes. En el panel central, tendrá un espacio de ejecución de comandos sobre la base de datos seleccionada, y en la parte inferior, se desplegará el resultado de la ejecución de los comandos. Por defecto, desplegará todos los documentos existentes si es que tiene seleccionada una colección de la base de datos.
                   .row
                     .col-auto
@@ -359,7 +353,7 @@
           .col-lg-6
             .p-4
               p #[b Interpretación]
-              p En este comando, se están consultando los documentos de la colección productos, donde existe o no  el campo “id”, que corresponde al tipo de dato primitivo String. Luego, pretty() formatea el resultado en un estructura tipo JSON, fácil de interpretar visualmente.
+              p En este comando, se están consultando los documentos de la colección productos, donde existe o no  el campo “id”, que corresponde al tipo de dato primitivo String. Luego, pretty() formatea el resultado en una estructura tipo JSON, fácil de interpretar visualmente.
               p.mb-0 Si existiera algún documento con id de tipo int o cualquier otro diferente de String, no será incluido en la consulta anterior.
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block.pe-0(style="z-index:2")
@@ -443,8 +437,10 @@
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema2',
+  components: { LineaTiempoC },
   data: () => ({
     mostrarIndicador: true,
     modal1: false,
