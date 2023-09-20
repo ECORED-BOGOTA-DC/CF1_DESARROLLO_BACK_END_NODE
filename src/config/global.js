@@ -146,7 +146,7 @@ export default {
       link: 'https://arxiv.org/abs/1708.03734',
     },
     {
-      referencia: 'Amazon Web Services. (s. f.). <i>¿Qué es NoSQL? AWS</i>. ',
+      referencia: 'Amazon Web Services. (2021). <i>¿Qué es NoSQL? AWS</i>. ',
       link: '',
     },
     {

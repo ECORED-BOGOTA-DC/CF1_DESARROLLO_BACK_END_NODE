@@ -193,7 +193,7 @@
       .col-12.bg-c4
         .p-4
           figure
-            img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img7.svg', style="width: 1000px" ,alt='Representación gráfica de bases de datos tipo documental').m-auto
     p.mb-5(data-aos="fade-right") De acuerdo con la información ya proporcionada:
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.bg-c5.mb-4.mb-lg-0
