@@ -147,7 +147,8 @@ export default {
     },
     {
       referencia: 'Amazon Web Services. (2021). <i>¿Qué es NoSQL? AWS</i>. ',
-      link: '',
+      link:
+        'https://aws.amazon.com/es/nosql/#:~:text=Las%20bases%20de%20datos%20NoSQL%20est%C3%A1n%20dise%C3%B1adas%20para%20varios%20patrones,hacer%20an%C3%A1lisis%20sobre%20datos%20semiestructurados',
     },
     {
       referencia:
@@ -162,7 +163,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
